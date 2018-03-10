@@ -1,0 +1,34 @@
+{
+  "name": "branch-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "branch-tool": "./scripts/run.js"
+  },
+  "scripts": {
+    "start": "./scripts/run.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Andy Richardson",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/node": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.1",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "eslint-plugin-jest": "^21.14.0",
+    "eslint-plugin-mocha": "^4.12.1",
+    "jest": "^22.4.2"
+  },
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.2"
+  }
+}
