@@ -1,4 +1,4 @@
-// /* eslint-env jest */
+/* eslint-env jest */
 import { expect } from 'chai';
 import { Help } from 'src/lib/Help';
 

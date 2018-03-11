@@ -9,8 +9,8 @@ jobs:
           name: Install dependencies
           command: npm install
       - run:
-          name: Unit tests
-          command: npm run test
-      - run:
           name: Lint
           command: npm run lint
+      - run:
+          name: Unit tests
+          command: npm run test

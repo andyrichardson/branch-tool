@@ -1,7 +1,6 @@
-// /* eslint-env jest */
+/* eslint-env jest */
 import { expect } from 'chai';
 import { Args } from 'src/lib/Args';
-
 
 it('should be importable', () => {
   expect(Args).to.be.an('object');
